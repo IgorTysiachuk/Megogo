@@ -99,4 +99,28 @@
 .header_menu_nav_a:hover {
   color: white;
   cursor: pointer;
+}
+
+.gradient {
+  background: #000;
+}
+
+.headerhide {
+  display: none;
+}
+
+.blockadd {
+  width: 100%;
+  height: 600px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+}
+.blockadd_block {
+  width: 1063px;
+  height: 1299px;
+  flex-shrink: 0;
+  background: #3B3B3B;
+  transform: translateY(-500px);
+  z-index: 7;
 }/*# sourceMappingURL=style.css.map */
