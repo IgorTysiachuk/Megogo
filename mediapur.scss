@@ -1,0 +1,134 @@
+@media screen and (max-width: 1500px) {
+    .header {
+        &_menu {
+            &_nav {
+                width: 40%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    .blockadd {
+        &_block {
+            width: 900px;
+            &_first {
+                width: 800px;
+                &_img1 {
+                    width: 160px;
+                    height: 220px
+                }
+                &_rightside {
+                    width: 600px;
+                }
+            }
+        }
+    }
+    .line {
+        width: 800px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .blockadd {
+        &_block {
+            width: 600px;
+            &_first {
+                width: 540px;
+                &_img1 {
+                    display: none;
+                }
+            }
+        }
+    }
+    .line {
+        width: 540px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .justmenu {
+        width: 44px;
+        height: auto;
+        display: block;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 1000px;
+        row-gap: 60px;
+        &_menu {
+            &_nav {
+                width: auto;
+                a {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 650px) {
+    .blockadd {
+        &_block {
+            width: 425px;
+            &_first {
+                width: 100%;
+                height: auto;
+                padding: 40px 0 0 0;
+                &_rightside {
+                    height: auto;
+                    &_some {
+                        margin-top: 20px;
+                        height: auto;
+                        flex-direction: column;
+                        align-items: center;
+                        row-gap: 30px;
+                        &_p1 {
+                            width: 80%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .line {
+        width: 380px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .header {
+        height: 900px;
+        &_left {
+            width: 300px;
+            height: auto;
+        }
+        &_right {
+            width: 300px;
+            &_p1 {
+                text-align: center;
+            }
+            &_p2 {
+                text-align: center;
+            }
+            &_btn {
+                display: block;
+                margin: 20px auto 0 auto;
+            }
+        }
+    }
+    .blockadd {
+        &_block {
+            width: 300px;
+            &_first {
+                &_rightside {
+                    &_some {
+                        &_p1 {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .line {
+        width: 260px;
+    }
+}

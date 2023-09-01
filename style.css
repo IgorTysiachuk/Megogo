@@ -89,7 +89,7 @@
 }
 .header_menu_nav_a {
   text-decoration: none;
-  color: #414141;
+  color: #ffffff;
   font-family: Raleway;
   font-size: 15px;
   font-style: normal;
@@ -123,4 +123,8 @@
   background: #3B3B3B;
   transform: translateY(-500px);
   z-index: 7;
+}
+
+.justmenu {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

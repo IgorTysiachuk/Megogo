@@ -159,6 +159,155 @@
                 }
             }
         }
+        &_under {
+            height: 233px;
+            width: 948px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            &_right {
+                position: relative;
+                width: 722px;
+                height: 233px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                &_img1 {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 90px;
+                    height: 45px;
+                }
+                &_p1 {
+                    margin-top: 15px;
+                    width: 100%;
+                    height: 40px;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Raleway;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+                &_down {
+                    width: 100%;
+                    height: 177px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    &_pn1 {
+                        height: 60px;
+                        width: 100%;
+                        &_p1 {
+                            color: #FFF;
+                            font-family: Raleway;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            transform: translateY(-4px);
+                        }
+                        &_input {
+                            width: 307px;
+                            height: 37px;
+                            flex-shrink: 0;
+                            border-radius: 12px;
+                            background: #202020;
+                            outline: none;
+                            border: none;
+                        }
+                    }
+                    &_pn2 {
+                        height: 60px;
+                        width: 100%;
+                        display: flex;
+                        justify-content: start;
+                        column-gap: 22px;
+                        &_yyyy {
+                            height: 100%;
+                            width: 131px;
+                            &_p1 {
+                                color: #FFF;
+                                font-family: Raleway;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                transform: translateY(-4px);
+                            }
+                            &_input {
+                                width: 127px;
+                                height: 37px;
+                                flex-shrink: 0;
+                                border-radius: 12px;
+                                background: #202020;
+                                border: none;
+                            }
+                        }
+                        &_cvc {
+                            width: 82px;
+                            height: 100%;
+                            &_input {
+                                width: 78px;
+                                height: 37px;
+                                flex-shrink: 0;
+                                border-radius: 12px;
+                                background: #202020;
+                                border: none;
+                            }
+                        }
+                    }
+                    &_pn3 {
+                        height: 37px;
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        &_btn {
+                            width: 145px;
+                            height: 37px;
+                            flex-shrink: 0;
+                            border-radius: 12px;
+                            background: #202020;
+                            color: #FFF;
+                            text-align: center;
+                            font-family: Raleway;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        &_left {
+                            width: 404px;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            column-gap: 10px;
+                            &_p1 {
+                                color: #FFF;
+                                font-family: Raleway;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            &_icon {
+                                width: 15px;
+                                height: 15px;
+                                flex-shrink: 0;
+                                border-radius: 5px;
+                                background: #202020;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 .footer {
@@ -253,4 +402,8 @@
     z-index: 3;
     transform: translateY(100%);
     transition-duration: 0.4s;
+}
+.justmenu {
+    width: 44px;
+    height: auto;
 }
