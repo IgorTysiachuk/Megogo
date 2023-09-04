@@ -21,15 +21,43 @@
                     width: 600px;
                 }
             }
+            &_under {
+                width: 90%;
+                height: auto;
+                column-gap: 30px;
+                &_right {
+                    height: auto;
+                    &_down {
+                        height: auto;
+                        &_pn3 {
+                            align-items: start;
+                            width: 100%;
+                            height: auto;
+                            flex-direction: column;
+                            row-gap: 20px;
+                        }
+                    }
+                }
+            }
         }
     }
     .line {
         width: 800px;
     }
+    .second {
+        &_block {
+            width: 90%;
+            &_item {
+                width: 170px;
+            }
+        }
+    }
 }
 @media screen and (max-width: 1000px) {
     .blockadd {
         &_block {
+            height: auto;
+            padding-bottom: 30px;
             width: 600px;
             &_first {
                 width: 540px;
@@ -37,10 +65,42 @@
                     display: none;
                 }
             }
+            &_under {
+                overflow: hidden;
+                &_right {
+                    &_down {
+                        &_pn3 {
+                            align-items: center;
+                            &_left {
+                                &_p1 {
+                                    width: 60%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
     .line {
         width: 540px;
+    }
+    .second {
+        height: auto;
+        &_block {
+            height: auto;
+            width: 85%;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            row-gap: 30px;
+            padding-bottom: 30px;
+            &_item {
+                width: 200px;
+                &:hover {
+                    height: 350px;
+                }
+            }
+        }
     }
 }
 @media screen and (max-width: 768px) {
@@ -92,6 +152,15 @@
     .line {
         width: 380px;
     }
+    .blockadd {
+        &_block {
+            &_under {
+                &_img1 {
+                    display: none;
+                }
+            }
+        }
+    }
 }
 @media screen and (max-width: 500px) {
     .header {
@@ -122,6 +191,22 @@
                     &_some {
                         &_p1 {
                             text-align: center;
+                        }
+                    }
+                }
+            }
+            &_under {
+                &_right {
+                    &_down {
+                        &_pn1 {
+                            &_input {
+                                width: 250px;
+                            }
+                        }
+                        &_pn3 {
+                            &_btn {
+                                width: 130px;
+                            }
                         }
                     }
                 }
